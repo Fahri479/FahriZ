@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: sans-serif;
+}
+
+.btn-primary {
+  @apply bg-electric px-6 py-3 rounded-xl text-white;
+}
+
+.btn-secondary {
+  @apply bg-gold px-6 py-3 rounded-xl text-black;
+}
